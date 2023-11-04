@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" >²
+        <!-- Primary brand color. -->
+    <item name="colorPrimary" >@color/myPrimary</item>
+
+        <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/mySecondary</item>
+
+    </style>
+</resources>
