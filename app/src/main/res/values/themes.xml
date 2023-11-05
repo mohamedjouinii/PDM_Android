@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" >²
-        <!-- Primary brand color. -->
-    <item name="colorPrimary" >@color/myPrimary</item>
+        <style name="Theme.myApplication" parent="Theme.Material3.Light.NoActionBar">
+            <!-- Primary brand color. -->
+            <item name="colorPrimary">@color/myPrimary</item>
+            <item name="colorPrimaryVariant">@color/myPrimary</item>
+            <item name="colorOnPrimary">@color/black</item>
+            <!-- Secondary brand color. -->
+            <item name="colorSecondary">@color/mySecondary</item>
+            <item name="colorSecondaryVariant">@color/mySecondary</item>
+            <item name="colorOnSecondary">@color/black</item>
 
-        <!-- Secondary brand color. -->
-    <item name="colorSecondary">@color/mySecondary</item>
 
-    </style>
+        </style>
 </resources>
