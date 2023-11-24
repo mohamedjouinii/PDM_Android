@@ -10,6 +10,7 @@ import com.google.android.material.snackbar.Snackbar
 class MainActivity : ComponentActivity() {
 
 
+
     private lateinit var binding: ActivityLoginBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

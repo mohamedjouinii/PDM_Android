@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="233dp"
+        android:layout_height="340dp"
+        android:layout_margin="20dp">
+
+
+
+        <TextView
+            android:id="@+id/LV_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="29dp"
+            android:text="mohamed"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/LV_prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LV_nom"
+            android:layout_marginTop="29dp"
+            android:text="choho"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/LV_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LV_prenom"
+            android:layout_marginTop="29dp"
+            android:text="$re@esprit.tn"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/LV_descrpition"
+            android:layout_width="225dp"
+            android:layout_height="137dp"
+            android:layout_below="@id/LV_email"
+            android:layout_marginTop="29dp"
+            android:text="tre bien propre "
+            android:textSize="20sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
